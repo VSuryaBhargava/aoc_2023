@@ -5,7 +5,8 @@ use utils::{
 
 pub type ParsedOutput = Vec<i32>;
 
-pub struct Problem;
+#[derive(Default)]
+pub struct Problem {}
 
 impl ParseInput for Problem {
     type ParsedType = ParsedOutput;
